@@ -1,0 +1,160 @@
+* {
+  font-family: sans-serif;
+  color: #1d1d1d;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4,
+h5,
+nav a {
+  font-size: 20px;
+}
+
+h5 {
+  margin: 0;
+}
+
+p,
+a,
+li {
+  font-size: 22px;
+  list-style: none;
+}
+
+blockquote {
+  max-width: 700px;
+}
+
+cite {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: end;
+  display: block;
+}
+
+footer p,
+footer li,
+footer a,
+aside p,
+aside li,
+aside a {
+  font-size: 18px;
+}
+
+li {
+  padding: 5px;
+}
+
+small {
+  font-size: 16px;
+}
+
+aside {
+  max-width: 230px;
+  min-width: 110px;
+}
+
+aside h4 {
+  margin-bottom: 0;
+}
+
+aside ul {
+  padding: 0;
+}
+
+header {
+  padding-bottom: 50px;
+}
+
+section {
+  padding-bottom: 150px;
+}
+
+article:first-of-type {
+  padding-bottom: 75px;
+}
+
+a:link,
+a:visited {
+  color: #1d1d1d;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: #5b00a5;
+}
+
+nav a:link,
+nav a:visited {
+  display: inline-block;
+  padding: 0 15px;
+  font-weight: bold;
+  color: #000000;
+}
+
+nav a:hover,
+nav a:active {
+  color: #5b00a5;
+}
+
+.go-to-git a:link,
+.go-to-git a:visited {
+  color: #5b00a5;
+}
+
+.go-to-git a:hover,
+.go-to-git a:active {
+  color: #5b00a5;
+  font-weight: bold;
+}
+
+.page-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 2.5%;
+}
+
+.gob-img {
+  width: 25%;
+  max-width: 400px;
+  min-width: 200px;
+  height: auto;
+}
+
+.title-and-nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img-and-quote-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.body-and-aside-container {
+  display: flex;
+  justify-content: space-between;
+}
